@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+package-lock.json
 
 # testing
 /coverage
@@ -18,6 +19,8 @@
 # misc
 .DS_Store
 *.pem
+Thumbs.db
+*.log
 
 # debug
 npm-debug.log*
@@ -35,4 +38,12 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-.vercel
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
