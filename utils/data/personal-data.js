@@ -7,11 +7,11 @@ export const personalData = {
   phone: '+91 8329046229 ',
   address: 'Shirpur, Maharashtra - 425405',
   github: 'https://github.com/Pradyumna744',
-  facebook: 'https://www.facebook.com/abusaid.riyaz/',
+  // facebook: 'https://www.facebook.com/abusaid.riyaz/',
   linkedIn: 'https://www.linkedin.com/in/pradyumna744/',
   twitter: 'https://x.com/PRADYUMNA_744',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
+  // stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
+  // leetcode: "https://leetcode.com/said3812/",
+  // devUsername: "said7388",
   resume: "https://drive.google.com/file/d/1RJkkkLw6-PGMLLq9TIQiGMU9RaLjNOSE/view?usp=drive_link"
 }
