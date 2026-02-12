@@ -54,7 +54,7 @@ A modern, responsive Developer Portfolio website built with Next.js 14, Tailwind
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/Hemanshubt/Pradyumna_Portfolio_Website.git
     cd Pradyumna_Portfolio_Website
     ```
 
@@ -88,7 +88,30 @@ A modern, responsive Developer Portfolio website built with Next.js 14, Tailwind
         - `TELEGRAM_CHAT_ID`: Your chat ID (can be found using `@userinfobot`).
 
     - **General:**
-        - `NEXT_PUBLIC_BASE_URL`: The URL of your deployed site (e.g., `https://your-portfolio.com`).
+        - `NEXT_PUBLIC_APP_URL`: The URL of your deployed site (e.g., `http://localhost:3000` or `https://your-portfolio.com`).
+
+    ### How to obtain the keys:
+
+    1.  **Telegram Bot Token (`TELEGRAM_BOT_TOKEN`)**:
+        - Open Telegram and search for **@BotFather**.
+        - Send the command `/newbot`.
+        - Follow the instructions to create a new bot.
+        - Copy the **API Token** provided.
+
+    2.  **Telegram Chat ID (`TELEGRAM_CHAT_ID`)**:
+        - Open Telegram and search for **@userinfobot** (or any similar ID bot).
+        - Start the bot.
+        - Copy the **Id** provided.
+
+    3.  **Gmail App Password (`GMAIL_PASSKEY`)**:
+        - Go to your [Google Account Security](https://myaccount.google.com/security) page.
+        - Enable **2-Step Verification** if not already enabled.
+        - Go to **2-Step Verification** > **App passwords** (at the bottom).
+        - Create a new app password (select "Mail" and your device).
+        - Copy the generated 16-character password.
+
+    4.  **Email Address (`EMAIL_ADDRESS`)**:
+        - Simply use your Gmail address (e.g., `example@gmail.com`).
 
 
 ### Running Locally
